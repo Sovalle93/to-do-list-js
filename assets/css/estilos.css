@@ -1,0 +1,53 @@
+body{
+    background-color: #ececec;
+}
+
+input{
+    width: 80%;
+    height: 1.5rem;
+}
+#btn{
+    background-color: #1a7742;
+    height: 1.8rem;
+    color: white;
+}
+
+#results{
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+}
+
+#taskmaster{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+li{
+    list-style-type: none;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border: black solid 1px;
+    height: 3rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+#x{
+    height: 20px;   
+    width: 20px;
+    background-color: #fa0000;
+    border-radius: 5px;
+    position: relative;
+}
